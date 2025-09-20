@@ -1,0 +1,67 @@
+/*기본 및 레이아웃*/
+body {
+ background: linear-gradient(to right, #c7ea57, #f5b222);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ margin: 0;
+   
+}
+.card-container{
+ background-color: white;
+ width: 350px;
+ border-radius: 20px ;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1.);
+ overflow: hidden;
+ text-align: center; 
+}
+
+.card-header {
+ background-color: #f5b222;
+ padding: 40px 0;
+ 
+}
+
+.profile-pic{
+ width: 150px;   
+ height: 150px;
+ border-radius: 50%;
+ border:5px solid black;
+}
+
+.card-body {
+ padding: 30px;   
+}
+
+.user-name{
+margin: 10px 0 5px ;
+font-size : 24px;
+
+}
+
+user-skils span{
+ background-color: aquamarine;   
+ border-radius: 15px;
+ padding: 5px 15px;
+ font-size: 12px;
+ display: inline-block;
+}
+
+.card-footer a{
+background: linear-gradient(to right, #18f1f5 #f51835) ;
+color:wheat   
+text-decoration: none;
+border-radius:30px;
+font-weight: bold;
+transition:transform 0.25 ease-in-out; 
+padding: 12px 30px;
+
+}
+
+.card-footer:hover {
+ transform:scale(1.05);   
+}
+
+
